@@ -30,7 +30,7 @@ public interface OurQueue<Type> {
 
 	/**
 	 * Returns the value of the element at the front of the Queue.
-   * If the queue is empty, throw new CapacityException();
+         * If the queue is empty, throw new EmptyQueueException();
 	 */
-	public Type peek() throws CapacityException;
+	public Type peek() throws EmptyQueueException;
 }
